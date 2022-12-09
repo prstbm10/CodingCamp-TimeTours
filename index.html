@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"> </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Time Tours</title>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Time Tours</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="bookingform.html">Booking</a>
+            <a href="about.html">About us</a>
+        </nav>   
+    </header>
+    
+    <main>
+        <div class="jumbotron"> 
+            <div>
+                <h1>
+                    <h1>Time Tours</h1>
+                    <h3>Traveling - it leaves you speechless, then turns you into a
+                        storyteller - Ibn Battuta</h3>
+                    <p>Website created by : Timedoor Academy</p>
+                </h1>
+            </div>
+                <img src="images/travel-logo.png" alt="Logo">          
+            <div>
+            </div>
+        </div>
+    
+        <h1 class="title">Japan Tour Package</h1>
+        <div class="main-container">            
+            <div class="package-container">
+                <img src="images/sakura.jpeg" alt="Sakura">
+                <h3>Sakura Tours | 7 Days</h3>
+                <p>Travel Japan during sakura season</p>
+                <h4>USD 3,500 </h4>
+                <button onclick=goToBooking() type="button" class=”left”>Book Now</button>
+            </div>
+            <div class="package-container">
+                <img src="images/anime.jpg" alt="Anime">
+                <h3>Anime World Tours | 5 Days</h3>
+                <p>Deeper into the Anime</p>
+                <h4>USD 2,500 </h4>          
+                <button onclick=goToBooking() class=”left”>Book Now</button> 
+            </div>
+            <div class="package-container">          
+                <img src="images/shibuya.jpg" alt="Shibuya">
+                <h3>Discover Japan | 10 Days</h3>
+                <p>Travel to all the must see cities of Japan</p>
+                <h4>USD 9,000 </h4>
+                <button onclick=goToBooking() class=”left”>Book Now</button>
+            </div>
+        </div>
+    
+        <h1 class="title">Tours Detail</h1>
+        <div class="table">
+            <table>
+                <tr>
+                    <!-- Table heading -->
+                    <th>Package</th>
+                    <th>Description</th>
+                    <th>Places</th>
+                    <th>Price</th>
+                    <th>Booking</th>
+                </tr>
+                <tr>
+                    <!-- Table data 1 -->
+                    <td><img src="images/sakura.jpeg" alt=""></td>
+                    <td>Anime World Tours| 7 Days</td>
+                    <td>Tokyo, Nagano, Nakasendo Takayama, 
+                        Shirakawago, Kanazawa</td>
+                    <td>USD 3,500</td>
+                    <td><button onclick=goToBooking()>Book Now</button></td>
+                </tr>
+                <tr>
+                    <!-- Table data 2 -->
+                    <td><img src="images/anime.jpg" alt=""></td>
+                    <td>Anime World Tours| 5 Days</td>
+                    <td>Osaka, Universal Studio, 
+                        Harajuku, Shibuya Haciko, 
+                        Akihabara, Ghibli Museum</td>
+                    <td>USD 2,500</td>
+                    <td><button onclick=goToBooking()>Book Now</button></td>
+                </tr>
+                <tr>
+                    <!-- Table data 3 -->
+                    <td><img src="images/shibuya.jpg" alt=""></td>
+                    <td>Anime World Tours| 10 Days</td>
+                    <td>Tokyo, Hakone, Atami, Kyoto, 
+                        Nara, Himeji, Hiroshima</td>
+                    <td>USD 9,000</td>
+                    <td><button onclick=goToBooking()>Book Now</button></td>
+                </tr>
+                <tr>
+                    <!-- Table data 4 -->
+                    <td><img src="images/hiroshima.jpg" alt=""></td>
+                    <td>Japanese Ancestry Tours| 7 Days</td>
+                    <td>Tokyo, Hakone,Kyoto, Suo Island, 
+                        Nara, Himeji,Hiroshima</td>
+                    <td>USD 4,000</td>
+                    <td><button onclick=goToBooking()>Book Now</button></td>
+                </tr>
+                <tr>
+                    <!-- Table data 5 -->
+                    <td><img src="images/Kanazawa.jpg" alt=""></td>
+                    <td>Hidden Trails| 7 Days</td>
+                    <td>Tokyo, Nagano, Kamikochi, Kyoto, 
+                        Nara,Takayama, Shirakawago, Kanazawa	</td>
+                    <td>USD 9,500</td>
+                    <td><button onclick=goToBooking()>Book Now</button></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    
+    <footer>
+        <h4>Time Tours</h4>
+        <p>Copyright &copy 2022 Designed by Timedoor Academy </p>
+    </footer>
+    
+    
+</body>
+</html>
